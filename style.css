@@ -19,7 +19,7 @@ textarea
 		font: 200 14px/10px 'Bree Serif', Georgia, serif; 
 		color:#6a6969; 
 	}
-input[type="text"] 
+input[type="text"], input[type="email"]
 	{
 		background-color: #111111; 
 		color: #ffffff; 
@@ -27,13 +27,7 @@ input[type="text"]
 		color:#6a6969; 
 		border-color: #ffffff;
 	}
-input[type="email"] 
-	{
-		background-color: #111111; 
-		color: #ffffff; 
-		font: 200 14px/10px 'Bree Serif', Georgia, serif; 
-		color:#6a6969; 
-	}
+
 
 #container{
 	width:950px;
@@ -139,6 +133,7 @@ input[type="email"]
 /****************************************************/
 
 #jobs{margin:0px 43px; padding-top:115px;}
+#jobs h3 {line-height: 1;}
 #jobs .col{
 	width:235px;
 	float:left;
@@ -169,12 +164,12 @@ input[type="email"]
 	margin:0px 20px 15px 0px;
 	padding:0px;
 }
-#work #work-thumbs li.last{margin:0px;}*/
+#work #work-thumbs li.last{margin:0px;}
 
 /****************************************************/
 /* contact SECTION */
 /****************************************************/
-#contact{margin:0px 43px; padding-top:115px;}
+#contact {margin-top:43px; padding-top:115px;}
 #contact .content{overflow:auto;}
 #contact #form{
 	width:410px;
@@ -184,7 +179,6 @@ input[type="email"]
 	display:block;
 	float:left;
 	width:100px;
-	padding-top:5px;
 	font: 400 14px/16px 'Bree Serif', Georgia, serif;
 }
 #contact #form input{
@@ -220,30 +214,6 @@ input[type="email"]
 	font: 400 14px/16px 'Bree Serif', Georgia, serif;
 }
 
-#contact #social-footer{
-	width:300px;
-	float:left;
-	margin-left:75px;
-}
-#contact #social-footer #sm-links{margin-top:25px;}
-#contact #social-footer #sm-links li{
-	list-style:none;
-	float:left;
-}
-#contact #social-footer #sm-links li a{
-	display:block;
-	text-indent:-9999px;
-	width:26px; 
-	height:26px;
-	margin-right:10px;
-}
-#contact #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
-#contact #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
-#contact #social-footer #sm-links li a.dribble{background:url(images/sm-dribble-icon.png) no-repeat;}
-#contact #social-footer #sm-links li a.vimeo{background:url(images/sm-vimeo-icon.png) no-repeat; width:27px;}
-#contact #social-footer #sm-links li a.google{background:url(images/sm-google-icon.png) no-repeat;}
-#contact #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
-#contact #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
 /****************************************************/
 /* MISC */
@@ -260,7 +230,7 @@ input[type="email"]
 	
 }
 
-/*
-.top-divider{margin-bottom:40px;}
-.bottom-divider{margin-top:40px;}
-*/
+.off-white
+	{
+		color:#c6c6c6;
+	}
