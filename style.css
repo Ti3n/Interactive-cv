@@ -6,11 +6,34 @@ body{
 }
 h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
 h2{font: 400 32px/22px 'Bree Serif', Georgia, serif; color:#6a6969; line-height: 100%;}
-h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h3{font: 400 24px/18px 'Bree Serif', Georgia, serif; color:#6a6969;}
 ul{margin:0px; padding:0px;}
 a {text-decoration:none; color:#6a6969;}
 a:hover {color:#979797;}
 a img{border:0px;}
+textarea
+	{
+		resize:none; 
+		background-color: #111111; 
+		color: #ffffff; 
+		font: 200 14px/10px 'Bree Serif', Georgia, serif; 
+		color:#6a6969; 
+	}
+input[type="text"] 
+	{
+		background-color: #111111; 
+		color: #ffffff; 
+		font: 200 14px/10px 'Bree Serif', Georgia, serif; 
+		color:#6a6969; 
+		border-color: #ffffff;
+	}
+input[type="email"] 
+	{
+		background-color: #111111; 
+		color: #ffffff; 
+		font: 200 14px/10px 'Bree Serif', Georgia, serif; 
+		color:#6a6969; 
+	}
 
 #container{
 	width:950px;

@@ -82,7 +82,8 @@
 					<b style="font-weight: bolder;">
 						&#x25BA;
 					</b>
-					Over 3 years of <b style="font-weight: 900;">PHP</b> experience along with <b style="font-weight: 900;">Databases.</b>
+					Over 3 years of <b style="font-weight: 900;">PHP</b> experience along with 
+                    <b style="font-weight:900;">Databases.</b>
 				</p>
 				
 				<p style="font-weight: 100;"> 
@@ -265,15 +266,35 @@
     </div>
 <!--End Work Section-->
 
-<!--Begin Connect Section-->  
+<!--Begin Connect Section-->
+<!--This is where my contact details will be held -->  
     <div id="contact">
-    	<h1>Contact</h1>
-        <div class="top-divider"></div>
-        	<div class="content">
-               	<h2>Ways to Contact Me:</h2>
-                    <p>
-					<b>Email</b>: Tien.ngo@live.com<br>
-					<b>Mobile</b>: 07943732648
+    	<h1>Contact us</h1>
+            <form method="POST" name="contactform" action="contact-form-handler.php">
+                <p>
+                    <label for='name'>Your Name:</label> <br>
+                    <input type="text" name="name">
+                </p>
+                <p>
+                    <label for='email'>Email Address:</label> <br>
+                    <input type="text" name="email"> <br>
+                </p>
+                <p>
+                    <label for='message'>Message:</label> <br>
+                    <textarea name="message"></textarea>
+                </p>
+                    <input type="submit" value="Submit"><br>
+            </form>
+
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
 					</p>
                 </div>
     </div>
