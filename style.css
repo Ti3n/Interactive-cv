@@ -27,7 +27,21 @@ input[type="text"], input[type="email"]
 		color:#6a6969; 
 		border-color: #ffffff;
 	}
-
+input [type="submit"]
+	{
+		color:#FFFFFF;
+		background-color: #111111;
+		border-color: #FFFFFF;
+		border-width:2px;
+	}
+form 
+	{
+		margin-top: -10%;
+	}
+.col col 
+{
+	text-align: center;
+}
 
 #container{
 	width:950px;
@@ -214,6 +228,12 @@ input[type="text"], input[type="email"]
 	font: 400 14px/16px 'Bree Serif', Georgia, serif;
 }
 
+#contact .col{
+	width:235px;
+}
+#contact .content{overflow:auto;}
+#contact .col-mid{margin:0px 30px; text-align: center;}
+#contact .col-right{margin:0px 30px; text-align: center}
 
 /****************************************************/
 /* MISC */
@@ -230,7 +250,7 @@ input[type="text"], input[type="email"]
 	
 }
 
-.off-white
+p
 	{
 		color:#c6c6c6;
 	}
